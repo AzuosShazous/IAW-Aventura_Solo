@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2c3e50 url('https://images.alphacoders.com/630/63091.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+#story {
+  line-height: 1.6;
+  color: #ecf0f1;
+  font-size: 1.1rem;
+}
+
+#history {
+  background-color: #34495e;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #16a085;
+}
+
+#history p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #ecf0f1;
+}
+
+#history p span {
+  font-weight: bold;
+  color: #3498db;
+}
+
+#history .path {
+  margin-top: 10px;
+  background-color: #2c3e50;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#restart {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+#restart:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0; 
+  font-size: 2rem; 
+  color: #ecf0f1; 
+}
